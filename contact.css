@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #a096b0;
+}
+.container{
+display: flex;
+justify-content: center;
+width: 80%;
+margin: 0px auto;
+
+}
+.contact, .content{
+    width: 100%;
+    padding: 15px;
+}
+.contact h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #2c1c5c;
+}
+label{
+    color: #222;
+    font-size: 17px;
+display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+input{
+    width: 90%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+}
+button{
+    font-size: 17px;
+    background-color: #82104f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.content h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #82104f;
+}
+.content h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #82104f;
+}
+.content p{
+    color: #222;
+    font-size: 17px;
+    line-height: 1.4;
+  line-height:30px;
+}
+@media screen and (max-width:768px){
+.container{
+    display: flex;
+    flex-direction: column;
+}
+}
